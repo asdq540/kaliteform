@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vardiya Formu</title>
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h2>Vardiya Kayıt Formu</h2>
+    <form id="vardiyaForm">
+        <label>Tarih:</label><br>
+        <input type="date" name="tarih" required><br><br>
+
+        <label>Vardiya:</label><br>
+        <input type="text" name="vardiya" required><br><br>
+
+        <label>Hat:</label><br>
+        <input type="text" name="hat" required><br><br>
+
+        <label>Açıklama:</label><br>
+        <textarea name="aciklama"></textarea><br><br>
+
+        <label>Personel:</label><br>
+        <input type="text" name="personel"><br><br>
+
+        <button type="submit">Gönder</button>
+    </form>
+
+    <p id="sonuc"></p>
+</body>
+</html>
