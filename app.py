@@ -9,8 +9,8 @@ CORS(app)
 # ------------------------------
 # 🔐 ÇEVRE DEĞİŞKENLERİ (Render)
 # ------------------------------
-VALID_USERNAME = os.getenv("ADMIN_USER")
-VALID_PASSWORD = os.getenv("ADMIN_PASS")
+VALID_USERNAME = os.getenv("ADMIN_USERNAME")
+VALID_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 # Örnek:
 # ADMIN_USER = admin
